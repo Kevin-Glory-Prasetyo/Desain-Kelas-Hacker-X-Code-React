@@ -359,6 +359,111 @@ body {
 }
 
 /*==========================================================================
+  7. BAGIAN Biaya 
+  ===================================================*/
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+header h1 { font-size: 26px; font-weight: bold; }
+header h1 span { color: red; }
+/* Slider container */
+.slider-container {
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 50px;
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* Card */
+.card {
+  flex: 0 0 80%;
+  margin: 0 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background: #eaeaea;
+  padding: 25px;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid #2f2c2c;
+  margin-bottom: 60px;
+}
+.card h3 { font-size: 20px; margin-bottom: 10px; }
+.card p { font-size: 14px; margin-bottom: 20px; line-height: 1.4; }
+.price { font-size: 22px; font-weight: bold; margin: 15px 0 25px; }
+
+ul { list-style: none; margin: 0 0 20px; text-align: left; }
+ul li { margin: 8px 0; font-size: 14px; }
+ul li::before { content: "✔ "; color: black; font-weight: bold; }
+
+/* Highlight tengah */
+.card.active {
+  background: #243c64;
+  color: white;
+  transform: scale(1.05);
+}
+.card.active .btn-silabus { background: white; color: black; }
+.card.active .btn-beli { background: #ffd700; color: black; }
+.card.active ul li::before { color: white; }
+
+/* Tombol */
+.btn-group { display: flex; flex-direction: column; gap: 10px; }
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn-silabus { background: black; color: white; }
+.btn-beli { background: #243c64; color: white; }
+.btn:hover { opacity: 0.8; }
+
+/* Navigasi */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #243c64;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev { left: 0; }
+.next { right: 0; }
+
+/* Media Query untuk layar desktop/tablet */
+@media (min-width: 768px) {
+  .slider-container {
+    /* Hapus padding di layar besar */
+    padding: 0;
+  }
+  .card {
+    flex: 0 0 300px;
+  }
+  .nav-btn {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .prev { left: 0; }
+  .next { right: 0; }
+}
+
+
+/*==========================================================================
   7. BAGIAN FOOTER
 ==========================================================================*/
 footer {
