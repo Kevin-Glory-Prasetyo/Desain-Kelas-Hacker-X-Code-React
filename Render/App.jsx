@@ -4,6 +4,7 @@ import Mentors from '../src/komponen/Mentors';
 import ExpertInstructor from '../src/komponen/ExperienceMentor';
 import OfficeLocations from '../src/komponen/OfficeLocation';
 import Footer from '../src/komponen/Footer';
+import Biaya from '../src/komponen/Biaya';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Mentors />
         <ExpertInstructor/>
         <OfficeLocations />
+        <Biaya />
       </main>
       <Footer />
     </>
