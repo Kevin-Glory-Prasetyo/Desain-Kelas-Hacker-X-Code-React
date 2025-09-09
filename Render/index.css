@@ -13,7 +13,6 @@ body {
     background-color: #ffffff; /* Menggunakan background solid dari CSS utama */
 }
 
-
 /*==========================================================================
   2. KOMPONEN UMUM (SHARED COMPONENTS)
 ==========================================================================*/
@@ -692,7 +691,7 @@ footer {
 
 .footer-about img.footer-logo {
     display: block;
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
     margin: 0 0 15px 0;
     padding: 10px;
@@ -938,32 +937,4 @@ footer {
   /* Media query yang sudah ada dari sebelumnya akan menangani posisi tombol.
     Tidak perlu mengubah blok @media (max-width: 425px) Anda.
   */
-}
-
-/* Penyesuaian tambahan khusus Mobile L */
-@media (max-width: 425px) {
-  /* Supaya tulisan "di X-Code berada di bawah" */
-  .testimonial-section h3 {
-    order: 2; /* Memaksa judul/subjudul turun ke bawah */
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  /* Atur wrapper testimoni jadi column */
-  .testimonial-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Pindahkan tombol ke bawah testimoni */
-  .testimonial-section .controls {
-    order: 3;
-    justify-content: center;
-    margin-top: 25px; /* Kasih space biar agak renggang */
-  }
-
-  .testimonial-section .controls button {
-    margin: 0 10px;
-  }
 }
