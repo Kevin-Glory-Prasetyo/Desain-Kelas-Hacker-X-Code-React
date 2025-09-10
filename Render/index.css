@@ -1,23 +1,6 @@
 /* ==========================================================================
-   DAFTAR ISI
-   --------------------------------------------------------------------------
-   1. PENGATURAN GLOBAL & DEFAULT
-   2. KOMPONEN UMUM (SHARED COMPONENTS)
-   3. BAGIAN LAYANAN (SERVICES)
-   4. BAGIAN MENTOR
-   5. BAGIAN PENGALAMAN (EXPERIENCE)
-   6. BAGIAN LOKASI KANTOR (OFFICE)
-   7. BAGIAN BIAYA (PRICING)
-   8. BAGIAN TESTIMONI (TESTIMONIALS)
-      8.1. Testimoni Video
-      8.2. Testimoni Teks
-   9. BAGIAN FOOTER
-  10. MEDIA QUERIES (RESPONSIVE)
-========================================================================== */
-
-/* ==========================================================================
   1. PENGATURAN GLOBAL & DEFAULT
-========================================================================== */
+==========================================================================*/
 *,
 *::before,
 *::after {
@@ -27,12 +10,12 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+    background-color: #ffffff; /* Menggunakan background solid dari CSS utama */
 }
 
-/* ==========================================================================
+/*==========================================================================
   2. KOMPONEN UMUM (SHARED COMPONENTS)
-========================================================================== */
+==========================================================================*/
 .section-header {
     text-align: center;
     margin-bottom: 40px;
@@ -53,9 +36,9 @@ body {
     line-height: 1.6;
 }
 
-/* ==========================================================================
+/*==========================================================================
   3. BAGIAN LAYANAN (SERVICES)
-========================================================================== */
+==========================================================================*/
 .services-section {
     padding: 60px 20px;
     background-color: #ffffff;
@@ -160,9 +143,9 @@ body {
     border-color: #f0f0f0;
 }
 
-/* ==========================================================================
+/*==========================================================================
   4. BAGIAN MENTOR
-========================================================================== */
+==========================================================================*/
 .mentor-section {
     width: 100%;
     padding: 60px 20px;
@@ -200,7 +183,7 @@ body {
     object-fit: cover;
 }
 
-.mentor-card .card-content {
+.card-content {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -210,6 +193,7 @@ body {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.7) 50%, transparent 100%);
 }
 
+/* Perbaikan: Menambahkan parent selector untuk menghindari konflik */
 .mentor-card .card-content .mentor-info h3 {
     display: flex;
     align-items: center;
@@ -258,9 +242,9 @@ body {
     color: #ffc700;
 }
 
-/* ==========================================================================
+/*==========================================================================
   5. BAGIAN PENGALAMAN (EXPERIENCE)
-========================================================================== */
+==========================================================================*/
 .expert-section {
     padding: 60px 20px;
 }
@@ -301,9 +285,9 @@ body {
     opacity: 0.9;
 }
 
-/* ==========================================================================
+/*==========================================================================
   6. BAGIAN LOKASI KANTOR (OFFICE)
-========================================================================== */
+==========================================================================*/
 .office-section {
     padding: 60px 20px;
     text-align: center;
@@ -376,320 +360,197 @@ body {
 }
 
 /* ==========================================================================
-   7. BAGIAN BIAYA (PRICING)
+   7. BAGIAN BIAYA (PRICING) - DENGAN HARGA SATU BARIS
 ========================================================================== */
 .biaya-section {
-    padding: 60px 0;
-    background-color: #f8f9fa;
+  padding: 60px 0;
+  background-color: #f8f9fa;
 }
-
 .biaya-section header {
-    text-align: center;
-    padding: 0 20px 40px;
+  text-align: center;
+  padding: 0 20px 40px;
 }
-
 .biaya-section header h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #243c64;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #243c64;
 }
-
 .biaya-section header h1 span {
-    color: #e53e3e;
+  color: #e53e3e;
 }
-
 .biaya-section .slider-container {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px 0 80px 0;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px 0 80px 0;
 }
-
 .biaya-section .slider {
-    display: flex;
-    align-items: center;
-    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    padding: 0 5%;
+  display: flex;
+  align-items: center;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  padding: 0 5%;
 }
-
 .biaya-section .card {
-    flex: 0 0 320px;
-    margin: 0 20px;
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    background: #ffffff;
-    padding: 30px;
-    text-align: center;
-    border: 2px solid transparent;
-    flex-shrink: 0;
-    transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    transform: scale(0.9);
-    opacity: 0.7;
+  flex: 0 0 320px;
+  margin: 0 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  background: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid transparent;
+  flex-shrink: 0;
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform: scale(0.9);
+  opacity: 0.7;
 }
-
-.biaya-section .card p {
-    min-height: 65px;
+.biaya-section .card p { 
+  min-height: 65px;
 }
-
 .biaya-section .card.active {
-    transform: scale(1.05);
-    opacity: 1;
-    z-index: 10;
-    border-color: #3b5580;
-    background: #243c64;
-    color: white;
+  transform: scale(1.05);
+  opacity: 1;
+  z-index: 10;
+  border-color: #3b5580;
+  background: #243c64;
+  color: white;
 }
-
 .biaya-section .card.active h3 {
-    color: white;
+  color: white;
 }
 
+
+/* === GANTI BAGIAN INI: Hapus .price-display, .price-currency, dll. === */
+/* Gunakan aturan sederhana ini untuk .price */
 .biaya-section .price {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #243c64;
-    margin: 25px 0;
+  font-size: 1.8rem; /* Ukuran font untuk harga */
+  font-weight: 700; /* Tebal */
+  color: #243c64;
+  margin: 25px 0;
 }
 
+/* Ubah warna harga saat kartu aktif */
 .biaya-section .card.active .price {
-    color: white;
+  color: white;
 }
+/* ==================================================================== */
 
-.biaya-section ul {
-    list-style: none;
-    margin: 0 0 30px;
-    padding: 0;
-    text-align: left;
-}
-
-.biaya-section ul li {
-    margin: 10px 0;
-    font-size: 0.9rem;
-}
-
-.biaya-section ul li::before {
-    content: "✔ ";
-    color: #38a169;
-    font-weight: bold;
-    margin-right: 8px;
-}
-
-.biaya-section .card.active ul li::before {
-    color: #ffd700;
-}
-
-.biaya-section .btn-group {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.biaya-section .btn {
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    width: 100%;
-}
-
-.biaya-section .btn-silabus {
-    background: #e2e8f0;
-    color: #2d3748;
-}
-
-.biaya-section .btn-beli {
-    background: #243c64;
-    color: white;
-}
-
-.biaya-section .btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.biaya-section .card.active .btn-silabus {
-    background: white;
-    color: #243c64;
-}
-
-.biaya-section .card.active .btn-beli {
-    background: #ffd700;
-    color: #243c64;
-}
-
-.biaya-section .nav-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: white;
-    color: #243c64;
-    border: 1px solid #e2e8f0;
-    font-size: 1.5rem;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 50%;
-    z-index: 20;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.biaya-section .nav-btn:hover {
-    background: #243c64;
-    color: white;
-}
-
-.biaya-section .prev {
-    left: 25px;
-}
-
-.biaya-section .next {
-    right: 25px;
-}
+.biaya-section ul { list-style: none; margin: 0 0 30px; padding: 0; text-align: left; }
+.biaya-section ul li { margin: 10px 0; font-size: 0.9rem; }
+.biaya-section ul li::before { content: "✔ "; color: #38a169; font-weight: bold; margin-right: 8px; }
+.biaya-section .card.active ul li::before { color: #ffd700; }
+.biaya-section .btn-group { display: flex; flex-direction: column; gap: 12px; }
+.biaya-section .btn { padding: 12px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; transition: all 0.3s ease; width: 100%; }
+.biaya-section .btn-silabus { background: #e2e8f0; color: #2d3748; }
+.biaya-section .btn-beli { background: #243c64; color: white; }
+.biaya-section .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+.biaya-section .card.active .btn-silabus { background: white; color: #243c64; }
+.biaya-section .card.active .btn-beli { background: #ffd700; color: #243c64; }
+.biaya-section .nav-btn { position: absolute; top: 50%; transform: translateY(-50%); background: white; color: #243c64; border: 1px solid #e2e8f0; font-size: 1.5rem; width: 50px; height: 50px; cursor: pointer; border-radius: 50%; z-index: 20; box-shadow: 0 4px 15px rgba(0,0,0,0.1); display: flex; align-items: center; justify-content: center; }
+.biaya-section .nav-btn:hover { background: #243c64; color: white; }
+.biaya-section .prev { left: 25px; }
+.biaya-section .next { right: 25px; }
 
 /* ==========================================================================
-  8. BAGIAN TESTIMONI (TESTIMONIALS)
+   RESPONSIVE UNTUK BAGIAN BIAYA
 ========================================================================== */
+@media (max-width: 992px) {
+  .biaya-section .nav-btn.prev { left: 15px; }
+  .biaya-section .nav-btn.next { right: 15px; }
+  .biaya-section .slider { padding: 0 3%; }
+}
+
+@media (max-width: 768px) {
+  .biaya-section .slider { padding: 0 10%; }
+  .biaya-section .card { flex: 0 0 80%; margin: 0 10px; }
+  .biaya-section .slider-container { padding-bottom: 80px; }
+  .biaya-section .nav-btn { top: auto; bottom: 15px; transform: translateY(0); }
+  .biaya-section .nav-btn.prev { left: 50%; transform: translateX(-100%) translateX(-10px); }
+  .biaya-section .nav-btn.next { right: 50%; transform: translateX(100%) translateX(10px); }
+}
+
+@media (max-width: 576px) {
+  .biaya-section .slider { padding: 0 8%; }
+  .biaya-section .card { flex: 0 0 85%; margin: 0 8px; }
+  .biaya-section .nav-btn.prev { transform: translateX(-100%) translateX(-5px); }
+  .biaya-section .nav-btn.next { transform: translateX(100%) translateX(5px); }
+  
+  /* Sesuaikan ukuran font harga di mobile */
+  .biaya-section .price {
+    font-size: 1.5rem;
+  }
+}
+/*==========================================================================
+  8. BAGIAN TESTIMONI (TESTIMONIALS)
+==========================================================================*/
 
 /* 8.1. Testimoni Video */
 .testimonial-section {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    padding: 40px 20px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 60px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
 }
-
 .testimonial-section .testimonial-title,
 .testimonial-section h3 {
-    color: #2c3e50;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
-
 .testimonial-section .testimonial-title {
     font-size: 2.2rem;
     margin-bottom: 10px;
 }
-
 .testimonial-section h3 {
-    margin-bottom: 25px;
-    font-size: 1.2rem;
-    font-weight: 400;
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
-
-.testimonial-carousel {
-    position: relative;
-    overflow: hidden;
-}
-
+.testimonial-carousel { position: relative; overflow: hidden; }
 .testimonial-cards-wrapper {
-    display: flex;
-    transition: transform 0.4s ease-in-out;
-    padding: 0 5px;
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+  padding: 0 5px;
 }
-
-.testimonial-section .testimonial-card {
-    flex: 0 0 calc(33.33% - 15px);
-    margin: 0 7.5px;
+.testimonial-section .testimonial-card { /* Penambahan selector parent untuk spesifisitas */
+  flex: 0 0 calc(33.33% - 15px);
+  margin: 0 7.5px;
 }
-
 .testimonial-inner {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.3s ease;
+  background: #fff; border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+  padding: 15px; display: flex; flex-direction: column;
+  transition: transform 0.3s ease;
 }
+.testimonial-section .testimonial-card:hover .testimonial-inner { transform: scale(1.05); }
 
-.testimonial-section .testimonial-card:hover .testimonial-inner {
-    transform: scale(1.05);
-}
-
-.testimonial-section .stars {
-    color: #fbff00;
-    margin-bottom: 8px;
-    font-size: 1.2rem;
-}
-
+.testimonial-section .stars { color: #fbff00; margin-bottom: 8px; font-size: 1.2rem; }
 .media-content {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: 10px;
-    background: #eee;
+  position: relative; width: 100%; aspect-ratio: 16 / 9;
+  border-radius: 12px; overflow: hidden; margin-bottom: 10px;
+  background: #eee;
 }
-
-.media-content iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: block;
-}
-
-.profile {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.profile img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    margin-right: 10px;
-    object-fit: cover;
-}
-
-.profile h4 {
-    margin: 0;
-    font-size: 15px;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-.profile span {
-    font-size: 13px;
-    color: #666;
-}
-
+.media-content iframe { width: 100%; height: 100%; border: 0; display: block; }
+.profile { display: flex; align-items: center; margin-top: 10px; }
+.profile img { width: 45px; height: 45px; border-radius: 50%; margin-right: 10px; object-fit: cover; }
+.profile h4 { margin: 0; font-size: 15px; font-weight: bold; color: #2c3e50; }
+.profile span { font-size: 13px; color: #666; }
 .controls {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 25px;
-    gap: 12px;
-    padding-right: 15px;
+  display: flex; justify-content: flex-end;
+  margin-top: 25px; gap: 12px; padding-right: 15px;
 }
-
 .controls button {
-    background: #1976d2;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    cursor: pointer;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s ease;
+  background: #1976d2; color: #fff; border: none;
+  border-radius: 50%; width: 45px; height: 45px;
+  cursor: pointer; font-size: 20px;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.3s ease;
 }
-
-.controls button:hover {
-    background: #1565c0;
-}
+.controls button:hover { background: #1565c0; }
 
 /* 8.2 Testimoni Teks */
 .testimonial-container {
@@ -699,222 +560,111 @@ body {
     padding: 60px 20px;
     margin: 0 auto;
 }
-
 .testimonial-container .testimonial-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.8rem;
-    color: #4a5568;
-    margin-bottom: 3rem;
-    font-weight: 600;
-    position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  color: #4a5568;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  position: relative;
 }
-
 .testimonial-container .testimonial-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200px;
-    height: 3px;
-    background: linear-gradient(90deg, #4a90e2, #357abd);
+  content: ''; position: absolute; bottom: -10px; left: 50%;
+  transform: translateX(-50%);
+  width: 200px; height: 3px;
+  background: linear-gradient(90deg, #4a90e2, #357abd);
 }
-
 .testimonial-container .slider-wrapper {
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
 }
-
 .testimonial-slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    align-items: center;
+  display: flex; transition: transform 0.5s ease-in-out;
+  width: 100%; position: relative; z-index: 1 align-items:center;
 }
-
 .testimonial-card.text {
-    flex: 0 0 450px;
-    margin: 0 15px;
-    background: white;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    position: relative;
-    overflow: hidden;
-    border: 3px solid #e2e8f0;
-    transform: scale(0.9);
-    opacity: 0.6;
+  flex : 0  0 450px;
+  margin : 0 15px;
+  background:white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: all 0.5s cubic-bezier(0.25,0.46,0.45,0.94);
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #e2e8f0;
+  transform: scale(0.9); /* Kartu yang tidak aktif sedikit lebih kecil */
+  opacity: 0.6; 
 }
-
 .testimonial-card.center-card {
-    transform: scale(1.1);
-    opacity: 1;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
-    border-color: #4a90e2;
-    z-index: 5;
+  transform: scale(1.1);
+  opacity: 1; /* Kartu aktif jelas terlihat */
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  border-color: #4a90e2;
+  z-index: 5;
 }
-
-.testimonial-card.text .card-header {
-    background: #f8fafc;
-    padding: 20px 20px 0px;
-    position: relative;
-}
-
-.testimonial-card.text .stars {
-    display: flex;
-    justify-content: flex-start;
-    gap: 3px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-}
-
+.testimonial-card.text .card-header { background: #f8fafc; padding: 20px 20px 0px; position: relative; }
+.testimonial-card.text .stars { display: flex; justify-content: flex-start; gap: 3px; margin-bottom: 20px; padding-left: 10px; }
 .star {
-    width: 20px;
-    height: 20px;
-    background: #ffd700;
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  width: 20px; height: 20px; background: #ffd700;
+  clip-path: polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);
 }
-
 .profile-image {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background: white;
-    margin: 0 auto -45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    position: relative;
-    z-index: 2;
-    overflow: hidden;
+  width: 90px; height: 90px; border-radius: 50%;
+  background: white; margin: 0 auto -45px;
+  display: flex; align-items: center; justify-content: center;
+  border: 5px solid white; box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  position: relative; z-index: 2; overflow: hidden;
 }
-
-.profile-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
+.profile-image img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+/* Menargetkan card-content di dalam text card untuk menghindari konflik */
 .testimonial-card.text .card-content {
-    background: #4a5f7a;
-    color: white;
-    padding: 50px 20px 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: auto;
-    left: auto;
-    right: auto;
+  background: #4a5f7a; color: white;
+  padding: 50px 20px 25px;
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  position: relative; /* Menghapus posisi absolut yang tidak perlu */
+  bottom: auto; left: auto; right: auto; /* Reset posisi */
 }
-
 .testimonial-text {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: white;
-    margin-bottom: 20px;
-    text-align: left;
-    position: relative;
-    padding: 0 15px;
+  font-size: 0.95rem; line-height: 1.5; color: white;
+  margin-bottom: 20px; text-align: left; position: relative; padding: 0 15px;
 }
-
-.testimonial-text::before,
-.testimonial-text::after {
-    content: '"';
-    font-size: 3rem;
-    color: rgba(255, 255, 255, 0.3);
-    position: absolute;
-    font-family: serif;
+.testimonial-text::before, .testimonial-text::after {
+  content: '"'; font-size: 3rem; color: rgba(255,255,255,0.3);
+  position: absolute; font-family: serif;
 }
-
-.testimonial-text::before {
-    top: -15px;
-    left: -5px;
-}
-
-.testimonial-text::after {
-    bottom: -35px;
-    right: 5px;
-}
-
-.author-name {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.author-title {
-    width: 60px;
-    height: 8px;
-    background: white;
-    margin: 0 auto;
-    border-radius: 4px;
-}
-
+.testimonial-text::before { top: -15px; left: -5px; }
+.testimonial-text::after { bottom: -35px; right: 5px; }
+.author-name { font-size: 1rem; font-weight: 600; margin-bottom: 10px; }
+.author-title { width: 60px; height: 8px; background: white; margin: 0 auto; border-radius: 4px; }
 .testimonial-container .nav-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: white;
-    border: none;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    z-index: 20;
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 50px; height: 50px; border-radius: 50%;
+  background: white; border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: all 0.3s ease; z-index: 20;
 }
-
-.testimonial-container .nav-button.prev {
-    left: 25px;
-}
-
-.testimonial-container .nav-button.next {
-    right: 25px;
-}
-
-.pagination-dots {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 40px;
-}
-
+.testimonial-container .nav-button.prev { left: 25px;}
+.testimonial-container .nav-button.next { right: 25px;}
+.pagination-dots { display: flex; justify-content: center; gap: 15px; margin-top: 40px; }
 .dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #cbd5e0;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  width: 12px; height: 12px; border-radius: 50%;
+  background: #cbd5e0; cursor: pointer; transition: all 0.3s ease;
 }
-
 .dot.active {
-    width: 18px;
-    height: 18px;
-    background: #4a90e2;
-    box-shadow: 0 0 20px rgba(74, 144, 226, 0.5);
+  width: 18px; height: 18px; background: #4a90e2;
+  box-shadow: 0 0 20px rgba(74,144,226,0.5);
 }
 
 
-/* ==========================================================================
+/*==========================================================================
   9. BAGIAN FOOTER
-========================================================================== */
+==========================================================================*/
 footer {
     padding: 50px 20px;
     color: white;
@@ -929,15 +679,26 @@ footer {
     max-width: 1200px;
     margin: 0 auto 30px auto;
 }
+@media(max-width:425px){
+  .footer-about img.footer-logo {
+    display: block;
+    max-width: 280px;
+    height: auto;
+    margin: 0 0 15px 10px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+  }
+}
 
 .footer-about img.footer-logo {
     display: block;
-    max-width: 400px;
+    max-width: 280px;
     height: auto;
-    margin: 0 0 15px 0;
+    margin: 0 0 15px -5px;
     padding: 10px;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .footer-about p,
@@ -1025,9 +786,9 @@ footer {
     text-decoration: none;
 }
 
-/* ==========================================================================
-  10. MEDIA QUERIES (RESPONSIVE)
-========================================================================== */
+/*==========================================================================
+  10. RESPONSIVE MEDIA QUERIES
+==========================================================================*/
 
 /* Tablet & Laptop Kecil (<= 1024px) */
 @media (max-width: 1024px) {
@@ -1046,21 +807,9 @@ footer {
     .service-card.featured {
         transform: translateY(0);
     }
-
+    
     .service-card.featured:hover {
         transform: translateY(-8px);
-    }
-
-    .biaya-section .nav-btn.prev {
-        left: 15px;
-    }
-
-    .biaya-section .nav-btn.next {
-        right: 15px;
-    }
-
-    .biaya-section .slider {
-        padding: 0 3%;
     }
 }
 
@@ -1069,49 +818,26 @@ footer {
     .section-header h2 {
         font-size: 30px;
     }
-
-    .biaya-section .slider {
-        padding: 0 10%;
-    }
     
-    .biaya-section .card {
-        flex: 0 0 80%;
-        margin: 0 10px;
-    }
-
     .biaya-section .slider-container {
-        padding-bottom: 80px;
+        padding: 0;
     }
-
-    .biaya-section .nav-btn {
-        top: auto;
-        bottom: 15px;
-        transform: translateY(0);
-    }
-
-    .biaya-section .nav-btn.prev {
-        left: 50%;
-        transform: translateX(-100%) translateX(-10px);
-    }
-
-    .biaya-section .nav-btn.next {
-        right: 50%;
-        transform: translateX(100%) translateX(10px);
+    .biaya-section .card {
+        flex: 0 0 300px;
     }
 
     .testimonial-section .testimonial-card {
         flex: 0 0 calc(100% - 15px);
-    }
-    
-    .testimonial-card.text {
-        flex: 0 0 400px;
     }
 
     .footer-container {
         text-align: center;
     }
 
-    .contact-item,
+    .contact-item {
+        justify-content: center;
+    }
+
     .social-icon {
         justify-content: center;
     }
@@ -1120,91 +846,118 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
+    .footer-about img.footer-logo {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin: 0 0 15px 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+}
 }
 
-/* Mobile (<= 576px) */
+/* Mobile Kecil (<= 576px) */
 @media (max-width: 576px) {
     .expert-grid,
     .office-container {
         grid-template-columns: 1fr;
     }
+}
 
-    .biaya-section .slider {
-        padding: 0 8%;
-    }
-
-    .biaya-section .card {
-        flex: 0 0 85%;
-        margin: 0 8px;
-    }
-
-    .biaya-section .nav-btn.prev {
-        transform: translateX(-100%) translateX(-5px);
-    }
-
-    .biaya-section .nav-btn.next {
-        transform: translateX(100%) translateX(5px);
-    }
-
-    .biaya-section .price {
-        font-size: 1.5rem;
-    }
-    
-    .testimonial-container .slider-wrapper {
-        padding: 20px 0;
-    }
-
-    .testimonial-card.text {
-        flex: 0 0 80%;
-        margin: 0 10px;
-    }
-
-    .testimonial-card.center-card {
-        transform: scale(1.05);
-    }
-
-    .testimonial-text {
-        font-size: 0.9rem;
-    }
-
-    .testimonial-container .nav-button {
-        width: 40px;
-        height: 40px;
-    }
+@media(max-width:320px){
+  .footer-about img.footer-logo {
+    display: block;
+    max-width: 250px;
+    height: auto;
+    margin: 0 0 15px 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+}
 }
 
 /* Mobile L (<= 425px) */
 @media (max-width: 425px) {
-    .testimonial-container .slider-wrapper {
-        padding-top: 20px;
-        padding-bottom: 80px;
-    }
+  .testimonial-container .slider-wrapper {
+    padding-top: 20px;
+    padding-bottom: 80px; /* Menambah ruang di bawah untuk nav button */
+  }
 
-    .testimonial-container .nav-button {
-        top: auto;
-        bottom: 15px;
-        transform: translateY(0);
-    }
+  .testimonial-container .nav-button {
+    top: auto;
+    bottom: 15px;
+    transform: translateY(0);
+  }
 
-    .testimonial-container .nav-button.prev {
-        left: 50%;
-        transform: translateX(-120%);
-    }
+  .testimonial-container .nav-button.prev {
+    left: 50%;
+    transform: translateX(-120%);
+  }
 
-    .testimonial-container .nav-button.next {
-        right: 50%;
-        transform: translateX(120%);
-    }
+  .testimonial-container .nav-button.next {
+    right: 50%;
+    transform: translateX(120%);
+  }
 
-    .testimonial-container .testimonial-title {
-        max-width: none;
-    }
+  .testimonial-container .testimonial-title {
+    max-width: none;
+  }
 }
 
 /* Mobile S (<= 320px) */
 @media (max-width: 320px) {
-    .testimonial-container .nav-button {
-        width: 45px;
-        height: 45px;
-    }
+  .testimonial-container .nav-button {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+
+/*==========================================================================
+  11. PENYESUAIAN RESPONSIVE TAMBAHAN UNTUK SLIDER TESTIMONI
+==========================================================================*/
+
+/* Untuk Tablet & Mobile Besar (<= 768px) */
+@media (max-width: 768px) {
+  .testimonial-card.text {
+    /* Sedikit mengurangi ukuran kartu untuk tablet */
+    flex: 0 0 400px;
+  }
+}
+
+/* Untuk Mobile (<= 576px) */
+@media (max-width: 576px) {
+  .testimonial-container .slider-wrapper {
+    /* Mengurangi padding vertikal agar tidak memakan banyak tempat */
+    padding: 20px 0;
+  }
+
+  .testimonial-card.text {
+    /* MENGURANGI UKURAN KARTU SECARA SIGNIFIKAN.
+      Gunakan persentase atau nilai pixel yang lebih kecil.
+      'flex: 0 0 80%' berarti lebar kartu adalah 80% dari lebar viewport.
+    */
+    flex: 0 0 80%;
+    margin: 0 10px; /* Mengurangi margin samping */
+  }
+
+  .testimonial-card.center-card {
+    /* Sedikit mengurangi efek pembesaran agar pas di layar kecil */
+    transform: scale(1.05);
+  }
+
+  .testimonial-text {
+    font-size: 0.9rem; /* Mengecilkan ukuran font testimoni */
+  }
+
+  .testimonial-container .nav-button {
+    /* Memperkecil tombol navigasi */
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Media query yang sudah ada dari sebelumnya akan menangani posisi tombol.
+    Tidak perlu mengubah blok @media (max-width: 425px) Anda.
+  */
 }
