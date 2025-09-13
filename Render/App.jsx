@@ -6,7 +6,9 @@ import OfficeLocations from '../src/komponen/OfficeLocation';
 import Footer from '../src/komponen/Footer';
 import Biaya from '../src/komponen/Biaya';
 import TestimoniVideo from '../src/komponen/TestimoniText';
-import TestimoniText from '../src/komponen/TestimoniVideo'
+import TestimoniText from '../src/komponen/TestimoniVideo';
+import Client from '../src/komponen/Client';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Mentors />
         <ExpertInstructor/>
         <OfficeLocations />
+        <Client/>
         <Biaya />
         <TestimoniText/>
         <TestimoniVideo/>

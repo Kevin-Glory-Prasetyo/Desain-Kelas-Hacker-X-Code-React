@@ -1455,3 +1455,127 @@ footer {
     height: 120px;
   }
 }
+
+
+
+
+.client-partner {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.client-partner h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #515cb1;
+}
+
+.client-partner p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 14px;
+    color: #515cb1;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.tabs button {
+    border: 1px solid #515cb1;
+    background: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #515cb1;
+    transition: all 0.3s ease;
+}
+
+.tabs button.active {
+    background: #515cb1;
+    color: #fff;
+}
+
+.client-partner h3 {
+    margin-bottom: 20px;
+    color: #515cb1;
+}
+
+.logos-section {
+    display: flex;
+    justify-content: center; /* Pusatkan kontainer logo */
+}
+
+/* Kontainer utama untuk semua logo (desktop & mobile) */
+.logos-container {
+    width: 100%;
+    max-width: 850px; /* Lebar maksimum kontainer di desktop */
+    max-height: 480px; /* Batasi tinggi agar bisa di-scroll */
+    overflow-y: auto;  /* AKTIFKAN SCROLL VERTIKAL */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logos-grid {
+    display: grid;
+    /* Tampilan 3 kolom di desktop */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.logo-box {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logo-box:hover {
+    transform: translateY(-5px);
+}
+
+.logo-box img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ===== GAYA UNTUK TAMPILAN MOBILE ===== */
+@media (max-width: 768px) {
+    .client-partner {
+        padding: 25px 15px;
+    }
+    
+    .logos-grid {
+        /* Ubah jadi 2 kolom di tablet/mobile besar */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logos-grid {
+        /* Ubah jadi 1 kolom di mobile kecil */
+        grid-template-columns: 1fr;
+    }
+}
