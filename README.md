@@ -138,7 +138,7 @@ npm run preview
 8. Testimoni Video dari Client
 <img width="1446" height="768" alt="image" src="https://github.com/user-attachments/assets/6be707c2-96fc-4923-a3d4-bc9b8dfe1a4e" />
 9. Testimoni Kata - Kata dari Client
-10. Footer 
+11. Footer 
 
 
 
