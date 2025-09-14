@@ -3,7 +3,7 @@ import xcodeLogo from  '../assets/img/Xcode.png';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id='Contact'>
             <div className="footer-container">
                 <div className="footer-about">
                     <img src={xcodeLogo} alt="X-Code Logo" className="footer-logo" />

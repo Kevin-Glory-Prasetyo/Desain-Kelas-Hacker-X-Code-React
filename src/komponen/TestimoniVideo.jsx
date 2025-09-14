@@ -1,6 +1,8 @@
 // src/components/VideoTestimonialSlider.jsx
 
 import React, { useState, useEffect, useRef } from 'react';
+import left from "../assets/img/left.svg"
+import right from "../assets/img/right.svg"
 
 // Data is stored in an array of objects for easier management
 const videoTestimonials = [
@@ -55,7 +57,7 @@ const TestimoniVideo = () => {
   const offset = -currentIndex * cardWidth;
 
   return (
-    <div className="testimonial-section">
+    <div className="testimonial-section" id='Testimonial'>
       <h1 className="testimonial-title">Testimoni Video Training di X-CODE</h1>
       <h3>Ulasan Pelanggan Kami (Video)</h3>
       <div className="testimonial-carousel">
@@ -89,8 +91,8 @@ const TestimoniVideo = () => {
         </div>
       </div>
       <div className="controls">
-        <button id="prev" onClick={handlePrev}>&#8592;</button>
-        <button id="next" onClick={handleNext}>&#8594;</button>
+        <button id="prev" onClick={handlePrev}><img src={left} alt="" /></button>
+        <button id="next" onClick={handleNext}><img src={right} alt="" /></button>
       </div>
     </div>
   );

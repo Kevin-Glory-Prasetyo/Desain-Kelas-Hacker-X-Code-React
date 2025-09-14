@@ -30,7 +30,7 @@ const servicesData = [
 
 const Services = () => {
     return (
-        <section className="services-section">
+        <section className="services-section" id='Fasilitas'>
             <div className="section-header">
                 <h2>Why Choose Our Service</h2>
                 <p>Materi lengkap dari dasar hingga advanced, dirancang khusus untuk memahami Ethical Hacking & Security Defense. Kami membantu Anda membangun pondasi keamanan IT yang kuat.</p>

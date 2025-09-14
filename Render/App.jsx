@@ -8,13 +8,18 @@ import Biaya from '../src/komponen/Biaya';
 import TestimoniVideo from '../src/komponen/TestimoniText';
 import TestimoniText from '../src/komponen/TestimoniVideo';
 import Client from '../src/komponen/Client';
+import Home from '../src/komponen/Home';
+import Navbar from '../src/komponen/Navbar';
+import About from '../src/komponen/About';
 
 
 function App() {
   return (
     <>
-      {/* Jika ada Navbar, letakkan di sini */}
+      <Navbar />
       <main>
+        <Home />
+        <About />
         <Services />
         <Mentors />
         <ExpertInstructor/>

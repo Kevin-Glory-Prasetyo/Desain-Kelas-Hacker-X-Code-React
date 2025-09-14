@@ -1,6 +1,8 @@
 // src/components/TextTestimonialSlider.jsx
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import left from "../assets/img/left2.svg"
+import right from "../assets/img/right2.svg"
 
 // Data untuk testimoni (tidak ada perubahan)
 const textTestimonials = [
@@ -67,7 +69,7 @@ const TestimoniText = () => {
         onMouseLeave={() => setIsPaused(false)}
       >
         <button className="nav-button prev" onClick={handlePrev}>
-          <div className="nav-arrow">‹</div>
+          <div className="nav-arrow"><img src={right} alt="" /></div>
         </button>
         <div 
           className="testimonial-slider" 
@@ -97,7 +99,7 @@ const TestimoniText = () => {
           ))}
         </div>
         <button className="nav-button next" onClick={handleNext}>
-          <div className="nav-arrow">›</div>
+          <div className="nav-arrow"><img src={left} alt="" /></div>
         </button>
       </div>
       <div className="pagination-dots">

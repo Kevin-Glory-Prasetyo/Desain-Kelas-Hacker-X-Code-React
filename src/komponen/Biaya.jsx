@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
+import left from "../assets/img/left2.svg"
+import right from "../assets/img/right2.svg"
 
 const courses = [
   {
@@ -85,7 +87,7 @@ export default function Biaya() {
   }, [calculateOffset]); // Dependensi pada fungsi yang sudah stabil
 
   return (
-    <section className="biaya-section">
+    <section className="biaya-section" id="Silabus">
       <header>
         <h1>
           <span>X-code</span> Training Course
@@ -93,7 +95,7 @@ export default function Biaya() {
       </header>
 
       <div className="slider-container" ref={containerRef}>
-        <button className="nav-btn prev" onClick={handlePrev}>❮</button>
+        <button className="nav-btn prev" onClick={handlePrev}><img src={right} alt="" /></button>
 
         <div className="slider" ref={sliderRef} style={{ transform: `translateX(${offset}px)` }}>
           {courses.map((course, idx) => (
@@ -123,7 +125,7 @@ export default function Biaya() {
           ))}
         </div>
 
-        <button className="nav-btn next" onClick={handleNext}>❯</button>
+        <button className="nav-btn next" onClick={handleNext}><img src={left} alt="" /></button>
       </div>
     </section>
   );
