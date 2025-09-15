@@ -538,7 +538,7 @@ body {
 
 .biaya-section .nav-btn:hover {
     color: white;
-    background: #243c64;
+    /* background: #243c64; */
 }
 
 .biaya-section .prev {
@@ -1355,8 +1355,9 @@ footer {
 }
 
 .nav-button:hover {
-  background: #3d4785;
-  transform: scale(1.1);
+  /* background: #3d4785;
+  transform: scale(1.1); */
+
 }
 
 .nav-button:active {
@@ -1705,7 +1706,7 @@ nav{
 
 
 .btnJoin{
-    @apply w-25 bg-white min-h-8 mt-3 block mx-auto rounded-[10px] text-pallet font-bold font-poppins
+    @apply w-25 bg-white min-h-8 mt-3 block mx-auto rounded-[10px] text-pallet font-bold font-poppins cursor-pointer
 
     sm:w-30 sm:text-[18px]  sm:h-9
 

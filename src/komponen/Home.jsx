@@ -9,7 +9,9 @@ export default function Home() {
         <p className="text2">
           Dapatkan pembelajaran ethical hacking <br className="br1" /> dan cyber security terbaik.
         </p>
+        <a href="#Silabus">
         <button className="btnJoin">Join Now</button>
+        </a>
       </section>
 
       <section className="homeRight">
