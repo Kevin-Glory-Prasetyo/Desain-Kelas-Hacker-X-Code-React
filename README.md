@@ -5,15 +5,17 @@ Proyek ini adalah landing page desain untuk *Kelas Hacker X Code* yang dibangun 
 
 ## ✨ Fitur utama
 
-* 📱 Layout responsif (desktop & mobile)
-* 🖼️ Hero section dengan CTA
-* 💰 Section Biaya (pricing)
-* 👨‍🏫 Section Mentor & Experience Mentor
-* 🤝 Section Client (mitra)
-* 📝 Section Testimoni (teks & video)
-* 🏢 Section Lokasi Office
-* 📩 Footer dengan kontak
-* ⚡ Development cepat dengan Vite
+* 📱 **Layout responsif** (desktop & mobile)  
+* 🖼️ **Hero section (Home)** dengan CTA  
+* 💰 **Section Biaya (pricing)**  
+* 👨‍🏫 **Section Mentor & Experience Mentor**  
+* 🤝 **Section Client (mitra)**  
+* 📝 **Section Testimoni (teks & video)**  
+* 🏢 **Section Lokasi Office**  
+* 🏷️ **Section About Us** (deskripsi singkat)  
+* 🧭 **Section Navbar** (navigasi antar section)  
+* 📩 **Section Footer** (informasi kontak)  
+* ⚡ **Development cepat** menggunakan **Vite**  
 
 ## 🛠️ Teknologi
 
@@ -30,27 +32,33 @@ Desain-Kelas-Hacker-X-Code-React/
 ├─ node_modules/           # 📦 dependency
 ├─ public/                 # 🌍 file publik (vite.svg, dll)
 ├─ Render/                 # ⚛️ entry utama React
-│  ├─ App.jsx              # komponen utama
-│  ├─ index.css            # style global
-│  └─ main.jsx             # entry point React DOM
+│  ├─ App.jsx              # 🖥️ komponen utama
+│  ├─ index.css            # 🎨 style global
+│  └─ main.jsx             # 🚀 entry point React DOM
 ├─ src/
 │  ├─ assets/img/          # 🖼️ asset gambar (mentor, network, office, dll)
 │  ├─ komponen/            # 🧩 kumpulan komponen utama
+│  │  ├─ AboutUs.jsx       # 🏷️ halaman About Us
 │  │  ├─ Biaya.jsx         # 💰 section biaya/pricing
 │  │  ├─ Client.jsx        # 🤝 section client/mitra
-│  │  ├─ ExperienceMentor.jsx 👨‍🏫
+│  │  ├─ ExperienceMentor.jsx # 👨‍🏫 pengalaman mentor
 │  │  ├─ Footer.jsx        # 📩 footer
+│  │  ├─ Home.jsx          # 🏠 halaman Home
 │  │  ├─ Mentors.jsx       # 👨‍🏫 section mentor
+│  │  ├─ Navbar.jsx        # 🧭 navigasi utama
 │  │  ├─ OfficeLocation.jsx # 🏢 lokasi kantor
 │  │  ├─ Service.jsx       # 🛎️ layanan
 │  │  ├─ TestimoniText.jsx # 📝 testimoni teks
 │  │  └─ TestimoniVideo.jsx # 🎥 testimoni video
-├─ .gitignore
+│  ├─ script/              # 📜 kumpulan script tambahan
+│  │  └─ script.js         # ⚙️ fungsi utilitas/logic tambahan
+├─ .gitignore              # 🚫 file yang diabaikan Git
 ├─ coba.html               # 🧪 file percobaan statis
 ├─ eslint.config.js        # ✅ konfigurasi eslint
 ├─ index.html              # 🌐 entry HTML
 ├─ package.json            # 📦 dependency & script
 └─ vite.config.js          # ⚡ konfigurasi Vite
+
 ```
 
 ## 📋 Persyaratan
