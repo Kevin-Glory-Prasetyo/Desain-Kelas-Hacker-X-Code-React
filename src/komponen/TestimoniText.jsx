@@ -6,12 +6,12 @@ import right from "../assets/img/right2.svg"
 
 // Data untuk testimoni (tidak ada perubahan)
 const textTestimonials = [
-  { id: 11, name: 'Ahmad Rizky', img: 'https://i.pravatar.cc/150?img=11', text: 'Training XCODE sangat membantu saya memahami konsep pengembangan aplikasi iOS.' },
-  { id: 12, name: 'Sari Dewi', img: 'https://i.pravatar.cc/150?img=12', text: 'Instruktur berpengalaman dan metode pembelajaran interaktif membuat saya cepat menguasai XCODE.' },
-  { id: 13, name: 'Budi Santoso', img: 'https://i.pravatar.cc/150?img=13', text: 'Setelah training ini, saya berhasil membuat aplikasi iOS pertama saya. Terima kasih XCODE!' },
-  { id: 14, name: 'Maya Putri', img: 'https://i.pravatar.cc/150?img=14', text: 'Training sangat worth it! Semua dijelaskan detail, dari basic sampai advanced.' },
-  { id: 15, name: 'Andi Pratama', img: 'https://i.pravatar.cc/150?img=15', text: 'Fasilitas training lengkap, mentor sabar dalam mengajar. Sangat puas dengan XCODE.' },
-  { id: 16, name: 'Dewi Lestari', img: 'https://i.pravatar.cc/150?img=16', text: 'Materi update sesuai tren terbaru. Saya jadi percaya diri membuat aplikasi sendiri.' },
+  { id: 11, name: 'Denny Oktafian', img: 'https://i.pravatar.cc/150?img=11', text: 'Mantaf ilmunya, menunjang sekali dalam pekerjaan. Kebetulan saya bekerja disalah satu perusahaan it.' },
+  { id: 12, name: 'Andy Setiyawan', img: 'https://i.pravatar.cc/150?img=12', text: 'xcode adalah tempat training yg sangat bagus dalam memberikan pengalaman untuk dunia keamanan sistem.' },
+  { id: 13, name: 'Yoga Satria', img: 'https://i.pravatar.cc/150?img=13', text: 'Rekomendasi banget bagi yang ingin mendalami security network, kita diajarkan bagaimana cara attack dan defense. Banyak studi kasus real yang dipelajari, Mantap josss mas..' },
+  { id: 14, name: 'Achmad Nurizal', img: 'https://i.pravatar.cc/150?img=14', text: 'Saya buta dalam Dunia Hacking.. setelah mengikuti saya jadi tau bagaimana melindungi diri dari peretas.. wajib hukumnya bagi profesional it utk tau dunia hacking.' },
+  { id: 15, name: 'Agus Sofyan', img: 'https://i.pravatar.cc/150?img=15', text: 'Senang bisa belajar di xcode. Cara penyampaian materi yg mudah dimengerti, pelayanan yg sangat bagus terutama peserta dari luar kota, bisa nambah teman yg berminat bidang IT Security, cocok buat pemula hingga expert.' },
+  { id: 16, name: 'Widi', img: 'https://i.pravatar.cc/150?img=16', text: 'Ingin mendalami cyber security & ethical hacking? Ikutan kursus di xcode aja...Saya ikut kursus online 16 x pertemuan. Materi nya lengkap, disediakan fasilitas program pendukung, video training dll & pengajarnya langsung dibawakan oleh ahlinya Master Kurniawan...supaya hasil kursus nya maksimal, setidaknya mesti punya basic ilmu jaringan komputer dasar, tcp ip & jgn lupa PRAKTEK...????' },
 ];
 
 const TestimoniText = () => {
