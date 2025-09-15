@@ -6,12 +6,12 @@ import right from "../assets/img/right.svg"
 
 // Data is stored in an array of objects for easier management
 const videoTestimonials = [
-  { id: 1, name: 'John F Kennedy', title: 'Website X-Code', img: 'https://i.pravatar.cc/50?img=1', videoId: 'dQw4w9WgXcQ' },
-  { id: 2, name: 'Leonardo DiCaprio', title: 'Website X-Code', img: 'https://i.pravatar.cc/50?img=2', videoId: '5qap5aO4i9A' },
-  { id: 3, name: 'Steve Jobs', title: 'Website X-Code', img: 'https://i.pravatar.cc/50?img=3', videoId: '9bZkp7q19f0' },
-  { id: 4, name: 'Bill Gates', title: 'Website X-Code', img: 'https://i.pravatar.cc/50?img=4', videoId: '3JZ_D3ELwOQ' },
-  { id: 5, name: 'Mark Zuckerberg', title: 'Website X-Code', img: 'https://i.pravatar.cc/50?img=5', videoId: 'L_jWHffIx5E' },
-  { id: 6, name: 'Elon Musk', title: 'Website X-Code', img: 'https://i.pravatar.cc/50?img=6', videoId: 'e-ORhEE9VVg' },
+  { id: 1, name: 'Imam', title: 'Alumni Ehtical Elite Hacker', img: 'https://i.pravatar.cc/50?img=1', videoId: 'y9BL_woOwJE' },
+  { id: 2, name: 'Adi', title: 'Alumni Ethical Elite Hacker', img: 'https://i.pravatar.cc/50?img=2', videoId: '6JhRCXkMR7c' },
+  { id: 3, name: 'Evendi', title: ' Alumni X-code Training', img: 'https://i.pravatar.cc/50?img=3', videoId: 'DlJpwPuEhHk' },
+  { id: 4, name: 'Taufik', title: 'Alumni X-code Training', img: 'https://i.pravatar.cc/50?img=4', videoId: 'DFxmmWBwTgQ' },
+  { id: 5, name: 'Rizal', title: 'Alumni X-code Training', img: 'https://i.pravatar.cc/50?img=5', videoId: '7tEnkZ2r-G4' },
+  { id: 6, name: 'Laras', title: 'Alumni X-code Training', img: 'https://i.pravatar.cc/50?img=6', videoId: 'bxmSIVBcFSA' },
 ];
 
 const TestimoniVideo = () => {
