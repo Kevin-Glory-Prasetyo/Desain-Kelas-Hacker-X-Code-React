@@ -3,15 +3,20 @@
 import React, { useState, useEffect, useRef } from 'react';
 import left from "../assets/img/left.svg"
 import right from "../assets/img/right.svg"
+import imamImg from "../assets/img/testimoni 01_Imam.png"
+import adiImg from "../assets/img/testimoni 02_Adi.png"
+import evendiImg from "../assets/img/testimoni 03_efendi.png"
+import taufikImg from "../assets/img/testimoni 04_taufik.png"
+import rizalImg from "../assets/img/testimoni 05_rizal.png"
+import larasImg from "../assets/img/testimoni 06_laras.png"
 
-// Data is stored in an array of objects for easier management
 const videoTestimonials = [
-  { id: 1, name: 'Imam', title: 'Alumni Ehtical Elite Hacker', img: 'https://i.pravatar.cc/50?img=1', videoId: 'y9BL_woOwJE' },
-  { id: 2, name: 'Adi', title: 'Alumni Ethical Elite Hacker', img: 'https://i.pravatar.cc/50?img=2', videoId: '6JhRCXkMR7c' },
-  { id: 3, name: 'Evendi', title: ' Alumni X-code Training', img: 'https://i.pravatar.cc/50?img=3', videoId: 'DlJpwPuEhHk' },
-  { id: 4, name: 'Taufik', title: 'Alumni X-code Training', img: 'https://i.pravatar.cc/50?img=4', videoId: 'DFxmmWBwTgQ' },
-  { id: 5, name: 'Rizal', title: 'Alumni X-code Training', img: 'https://i.pravatar.cc/50?img=5', videoId: '7tEnkZ2r-G4' },
-  { id: 6, name: 'Laras', title: 'Alumni X-code Training', img: 'https://i.pravatar.cc/50?img=6', videoId: 'bxmSIVBcFSA' },
+  { id: 1, name: 'Imam', title: 'Alumni Ehtical Elite Hacker', img: imamImg, videoId: 'y9BL_woOwJE' },
+  { id: 2, name: 'Adi', title: 'Alumni Ethical Elite Hacker', img: adiImg, videoId: '6JhRCXkMR7c' },
+  { id: 3, name: 'Evendi', title: 'Alumni X-code Training', img: evendiImg, videoId: 'DlJpwPuEhHk' },
+  { id: 4, name: 'Taufik', title: 'Alumni X-code Training', img: taufikImg, videoId: 'DFxmmWBwTgQ' },
+  { id: 5, name: 'Rizal', title: 'Alumni X-code Training', img: rizalImg, videoId: '7tEnkZ2r-G4' },
+  { id: 6, name: 'Laras', title: 'Alumni X-code Training', img: larasImg, videoId: 'bxmSIVBcFSA' },
 ];
 
 const TestimoniVideo = () => {
