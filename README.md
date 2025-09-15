@@ -130,20 +130,27 @@ npm run preview
 * ♿ Aksesibilitas dasar (alt text untuk gambar, semantic HTML)
 
 ## Dokumentasi 
-1. Service
+1.Header + Home Page
+<img width="1873" height="575" alt="image" src="https://github.com/user-attachments/assets/c28c4db2-6c5d-4df1-9ba9-20eb8b46edcb" />
+2.About Us
+<img width="1884" height="396" alt="image" src="https://github.com/user-attachments/assets/b1929251-3d4b-44ab-b051-a6e29f15889b" />
+3. Service
 <img width="1890" height="914" alt="image" src="https://github.com/user-attachments/assets/b76924f0-dc94-4c2e-94ae-a918e1eb8faf" />
-2. Introduction Mentor
+4. Introduction Mentor
 <img width="1549" height="586" alt="image" src="https://github.com/user-attachments/assets/837b2acf-f5f7-4ab9-b8da-89e5e6a2ac4f" />
-3. Profile Mentor
+5. Profile Mentor
 <img width="1478" height="655" alt="image" src="https://github.com/user-attachments/assets/6aa226f1-248c-4db3-ac0d-bac59521d7c5" />
-4. Office Location
+6. Office Location
 <img width="1431" height="536" alt="image" src="https://github.com/user-attachments/assets/0b8b05a9-5217-46eb-8b21-da4f947d6f53" />
-6. Client Patner
+7. Client Patner
 <img width="1261" height="734" alt="image" src="https://github.com/user-attachments/assets/53955713-af17-408f-ba72-402780723221" />
 <img width="1435" height="736" alt="image" src="https://github.com/user-attachments/assets/03184b51-fbf1-4500-88c2-4540aa50df80" />
-7. Biaya Course
+8. Biaya Course
 <img width="1861" height="737" alt="image" src="https://github.com/user-attachments/assets/3c10d7ab-4adf-4440-bafd-d2516c3ca5d7" />
-8. Testimoni Video dari Client
+9. Testimoni Video dari Client
 <img width="1446" height="768" alt="image" src="https://github.com/user-attachments/assets/6be707c2-96fc-4923-a3d4-bc9b8dfe1a4e" />
-9. Testimoni Kata - Kata dari Client
+10. Testimoni Kata - Kata dari Client
+<img width="1439" height="686" alt="image" src="https://github.com/user-attachments/assets/638a3329-0c4b-4ba3-b74a-5e444db149d3" />
 11. Footer 
+<img width="1883" height="412" alt="image" src="https://github.com/user-attachments/assets/d2f80987-6069-42e9-b3c2-193ee555266a" />
+
