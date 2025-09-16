@@ -1,5 +1,5 @@
 import "../script/script.js";
-import about from "../assets/img/aboutus.png"
+import about from "../assets/img/training2.png"
 
 export default function About() {
   return (
@@ -13,7 +13,7 @@ export default function About() {
           tingkat lanjut, termasuk topik khusus seperti exploit development.
         </p>
       </section>
-      <section>
+      <section className="img-abouts">
         <img src={about} alt="" className="img-about" />
       </section>
     </section>

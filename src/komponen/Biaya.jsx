@@ -4,28 +4,28 @@ import right from "../assets/img/right2.svg"
 
 const courses = [
   {
-    title: "Advanced Cyber Security v3",
+    title: "Ethical Elite Hacker v10 - 2025 (Private, live di Zoom)",
     desc: "Silabus sama dengan Elite Hacker v9 tapi yang membedakan belajarnya dari video",
-    price: "Rp.1.500.000/Peserta",
-    features: ["20 Sesi video", "Konsultasi WA", "Silabus", "Video Ethical Elite Hacker v9 Training"],
+    price: "Rp.32.200.000/Peserta",
+    features: ["26x Sesi Pertemuan", "Konsultasi WA", "Silabus", "Video Ethical Elite Hacker v10 Training"],
   },
   {
-    title: "Elite Hacker v9",
+    title: "Ethical Elite Hacker v10 - 2025 (Semi Private, live di Zoom) - Maksimal dibatasi 10 peserta",
     desc: "Pelatihan langsung dengan trainer profesional",
-    price: "Rp.2.500.000/Peserta",
-    features: ["25 Sesi", "Konsultasi WA", "Silabus", "Praktik Langsung"],
+    price: "Rp.18.200.000/Peserta",
+    features: ["26x Sesi Pertemuan", "Konsultasi WA", "Silabus", "Video Ethical Elite Hacker v10 Training"],
   },
   {
-    title: "Penetration Testing",
+    title: "Elite Penetration testing v2 - 2025 (Kelas private, live di Zoom)",
     desc: "Kursus untuk memahami testing keamanan sistem",
-    price: "Rp.1.800.000/Peserta",
-    features: ["15 Sesi", "Konsultasi WA", "Silabus", "Tools Lengkap"],
+    price: "Rp.12.100.000/Peserta",
+    features: ["7x Sesi Pertemuan", "Konsultasi WA", "Silabus", "Tools Lengkap"],
   },
   {
-    title: "Network Security",
+    title: "Advanced Cyber Security v3",
     desc: "Fokus membangun jaringan yang aman dan stabil",
-    price: "Rp.1.700.000/Peserta",
-    features: ["18 Sesi", "Konsultasi WA", "Silabus", "Studi Kasus"],
+    price: "Rp.2.350.000/Peserta",
+    features: ["20x Sesi Pertemuan", "Konsultasi WA", "Silabus", "Studi Kasus"],
   },
   {
     title: "Web Security",

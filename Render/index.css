@@ -1608,6 +1608,8 @@ header.header{
     lg:min-h-15 lg:shadow-[0_10px_20px_rgba(59,85,128,0.5)] lg:fixed lg:top-0 lg:left-0 lg:z-50 lg:bg-white lg:rounded-b-[10px] 
 
     xl:min-h-13 
+
+    2xl:min-h-16
 }
 
 
@@ -1620,7 +1622,9 @@ header.header{
 
     lg:w-full lg:max-w-35
 
-    xl:w-full xl:max-w-35
+    xl:w-full xl:max-w-40
+
+    2xl:w-full 2xl:max-w-45
 }
 .logo-hamburger{
     @apply w-full max-w-7 cursor-pointer
@@ -1640,7 +1644,9 @@ nav{
 
     lg:flex lg:space-x-5 lg:font-poppins lg:font-bold lg:text-pallet lg:text-[17px]
 
-    xl:text-[17px]
+    xl:text-[19px]
+
+    2xl:text-[23px] 2xl:space-x-7
     
 }
 
@@ -1671,7 +1677,8 @@ nav{
 .home{
     @apply w-full min-h-100 flex flex-col flex-1 items-center pt-10
 
-    lg:flex-row lg:justify-between lg:pt-0
+    lg:flex-row lg:justify-around lg:pt-0
+    
     xl:pt-0
 }
 
@@ -1680,13 +1687,13 @@ nav{
 
     sm:rounded-b-[40%]
 
-    lg:w-[45%] lg:min-h-90 lg:flex lg:flex-col lg:justify-center lg:items-center lg:rounded-b-none lg:rounded-tr-[50%] lg:rounded-br-[50%]
+    lg:w-[45%] lg:min-h-90 lg:flex lg:flex-col lg:justify-center lg:items-center lg:rounded-[45%] lg:mt-10
 
-    xl:w-[40%]
+    xl:w-[35%]
+
+    2xl:w-[33%] 2xl:min-h-100
     
 }
-
-
 
 
 .text1{
@@ -1695,6 +1702,8 @@ nav{
     sm:text-3xl
 
     md:text-4xl
+
+    2xl:text-5xl
 }
 .text2{
     @apply text-[15px] font-poppins font-bold text-center text-white
@@ -1702,6 +1711,7 @@ nav{
     sm:text-[19px] sm:mt-2
 
     md:text-[20px] 
+    2xl:text-[25px] 
 }
 
 
@@ -1714,7 +1724,9 @@ nav{
 
 }
 
-
+.homeRight{
+    @apply lg:flex flex-col justify-center items-center
+}
 .logo-computer{
     @apply mx-auto w-full max-w-80 mt-2
 
@@ -1722,9 +1734,11 @@ nav{
 
     md:w-full md:max-w-115
 
-    lg:w-full lg:max-w-120 lg:mr-10 lg:mt-10
+    lg:w-full lg:max-w-120  lg:mt-15
 
-    xl:w-full xl:max-w-130 xl:mr-40 xl:mt-10
+    xl:w-full xl:max-w-130 
+
+    2xl:w-full 2xl:max-w-150
 
 
 }
@@ -1737,8 +1751,6 @@ nav{
     md:text-[23px]
 
     lg:text-[20px]
-
-    xl:mr-23
 }
 
 .br2{
@@ -1755,25 +1767,28 @@ nav{
 .about-us{
     @apply w-full min-h-60 mt-7
 
-    lg:flex justify-between lg:border-y-1 lg:border-pallet
+    lg:flex justify-between 
 }
 
 .decs{
     @apply text-justify font-bold font-poppins text-white bg-pallet p-10 
 
 
-    lg:w-[50%] lg:text-[20px]
+    lg:w-[80%] lg:text-[20px]
 
     xl:text-[22px]
+}
+
+.img-abouts{
+    @apply w-full flex justify-center items-center
 }
 
 
 .img-about{
     @apply hidden
 
-    lg:block lg:w-full lg:max-w-100 lg:mr-10 lg:mt-10
+    lg:block lg:w-full lg:max-w-150
 
-    xl:mr-40
 }
 
 .text4{
