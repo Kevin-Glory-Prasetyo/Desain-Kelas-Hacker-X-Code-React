@@ -1642,11 +1642,11 @@ nav{
 .nav-laptop{
     @apply hidden
 
-    lg:flex lg:space-x-5 lg:font-poppins lg:font-bold lg:text-pallet lg:text-[17px]
+    lg:flex lg:space-x-5 lg:font-poppins lg:font-light lg:text-pallet lg:text-[17px]
 
     xl:text-[19px]
 
-    2xl:text-[23px] 2xl:space-x-7
+    2xl:text-[20px] 2xl:space-x-7
     
 }
 
@@ -1661,11 +1661,11 @@ nav{
 .nav-laptop li span{
     @apply mt-[7px] 
 
-    lg:flex lg:justify-center lg:items-center lg:cursor-pointer
+    lg:flex lg:justify-center lg:items-center lg:cursor-pointer lg:rounded-[7px] lg:px-3 lg:py-1
 }
 
-.nav-laptop li span.active{
-    @apply lg:bg-pallet lg:text-white lg:rounded-[7px]
+.nav-laptop li.active span{
+    @apply lg:bg-pallet lg:text-white lg:rounded-[7px] lg:px-3 lg:py-1
 }
 
 
@@ -1792,5 +1792,5 @@ nav{
 }
 
 .text4{
-    @apply font-medium
+    @apply font-normal
 }
