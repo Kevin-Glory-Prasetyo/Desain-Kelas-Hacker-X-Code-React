@@ -1,8 +1,8 @@
 import React from 'react';
 
-import office1 from '../assets/img/gambar1.jpg';
-import office2 from '../assets/img/Office1.webp';
-import office3 from '../assets/img/office2.webp';
+import office1 from '../assets/img/Main Office.png';
+import office2 from '../assets/img/Production Office.png';
+import office3 from '../assets/img/Representative office.png';
 
 const officeData = [
     { img: office1, alt: "Head Office", title: "Head Office", address: "Jl. Kebun Raya Gg. Terate No. 29 Timur Gembira Loka Zoo, Kota Yogyakarta" },
