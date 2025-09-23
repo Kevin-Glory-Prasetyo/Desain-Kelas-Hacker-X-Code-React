@@ -1,4 +1,4 @@
-# 🚀 Desain Kelas Hacker X Code - React
+<img width="1850" height="608" alt="image" src="https://github.com/user-attachments/assets/9918c69e-a0de-4687-94d0-749f685b21c4" /># 🚀 Desain Kelas Hacker X Code - React
 ## 📌 Deskripsi
 
 Proyek ini adalah landing page desain untuk *Kelas Hacker X Code* yang dibangun menggunakan **React** dan **Vite**. Tujuannya adalah menampilkan informasi program kelas, materi, mentor, mitra, serta CTA pendaftaran dengan tampilan modern dan responsif.
@@ -129,28 +129,38 @@ npm run preview
 * 🧹 Tidak ada error di console
 * ♿ Aksesibilitas dasar (alt text untuk gambar, semantic HTML)
 
-## Dokumentasi 
+## Dokumentasi Tampilan Dekstop 
 1.Header + Home Page
-<img width="1873" height="575" alt="image" src="https://github.com/user-attachments/assets/c28c4db2-6c5d-4df1-9ba9-20eb8b46edcb" />
+<img width="1896" height="842" alt="image" src="https://github.com/user-attachments/assets/463b6ef1-b229-4334-8e86-2b9a7bff5dc5" />
 2.About Us
-<img width="1884" height="396" alt="image" src="https://github.com/user-attachments/assets/b1929251-3d4b-44ab-b051-a6e29f15889b" />
+<img width="1900" height="626" alt="image" src="https://github.com/user-attachments/assets/d09b807a-90f9-4c3f-87a1-a259e19c5211" />
 3. Service
-<img width="1890" height="914" alt="image" src="https://github.com/user-attachments/assets/b76924f0-dc94-4c2e-94ae-a918e1eb8faf" />
+<img width="1897" height="819" alt="image" src="https://github.com/user-attachments/assets/b4c7c4a4-f824-4729-abcb-035446957f2f" />
 4. Introduction Mentor
-<img width="1549" height="586" alt="image" src="https://github.com/user-attachments/assets/837b2acf-f5f7-4ab9-b8da-89e5e6a2ac4f" />
+<img width="1850" height="608" alt="image" src="https://github.com/user-attachments/assets/d1b65dde-c45c-4174-bedf-68895d13febd" />
 5. Profile Mentor
 <img width="1478" height="655" alt="image" src="https://github.com/user-attachments/assets/6aa226f1-248c-4db3-ac0d-bac59521d7c5" />
 6. Office Location
 <img width="1431" height="536" alt="image" src="https://github.com/user-attachments/assets/0b8b05a9-5217-46eb-8b21-da4f947d6f53" />
 7. Client Patner
-<img width="1261" height="734" alt="image" src="https://github.com/user-attachments/assets/53955713-af17-408f-ba72-402780723221" />
-<img width="1435" height="736" alt="image" src="https://github.com/user-attachments/assets/03184b51-fbf1-4500-88c2-4540aa50df80" />
+<img width="1873" height="801" alt="image" src="https://github.com/user-attachments/assets/c1ad1014-7f0d-4ed8-a416-1f041f9afd66" />
+<img width="1870" height="772" alt="image" src="https://github.com/user-attachments/assets/82396abe-4ce5-4153-b724-af6577eefb74" />
+<img width="1859" height="810" alt="image" src="https://github.com/user-attachments/assets/f043f2fd-556d-49f5-9123-b8c0f3eaad34" />
+<img width="1880" height="800" alt="image" src="https://github.com/user-attachments/assets/ecad9f3c-a754-452b-a892-9defacd0b61f" />
+<img width="1876" height="807" alt="image" src="https://github.com/user-attachments/assets/3ed48d96-56fe-4bea-8cec-9383bbb5c799" />
+<img width="1872" height="801" alt="image" src="https://github.com/user-attachments/assets/0b5e8a9e-3455-48fb-8c23-174e1966e8f7" />
+<img width="1875" height="647" alt="image" src="https://github.com/user-attachments/assets/0ed99fc3-d097-47ec-8d7e-114034b0d628" />
 8. Biaya Course
-<img width="1861" height="737" alt="image" src="https://github.com/user-attachments/assets/3c10d7ab-4adf-4440-bafd-d2516c3ca5d7" />
+<img width="1889" height="668" alt="image" src="https://github.com/user-attachments/assets/6890dd0a-9dc9-4457-b2e8-f253e1e69591" />
 9. Testimoni Video dari Client
 <img width="1446" height="768" alt="image" src="https://github.com/user-attachments/assets/6be707c2-96fc-4923-a3d4-bc9b8dfe1a4e" />
 10. Testimoni Kata - Kata dari Client
-<img width="1439" height="686" alt="image" src="https://github.com/user-attachments/assets/638a3329-0c4b-4ba3-b74a-5e444db149d3" />
+<img width="1868" height="771" alt="image" src="https://github.com/user-attachments/assets/8be5bebb-07cb-49ef-87f7-354ed9a14d85" />
 11. Footer 
 <img width="1883" height="412" alt="image" src="https://github.com/user-attachments/assets/d2f80987-6069-42e9-b3c2-193ee555266a" />
+
+
+## Dokumentasi Tampilan Mobile 
+1.Header + Home Page
+<img width="396" height="762" alt="image" src="https://github.com/user-attachments/assets/a2c3d34a-5dbe-4aa2-b75c-96ac8589d51b" />
 
