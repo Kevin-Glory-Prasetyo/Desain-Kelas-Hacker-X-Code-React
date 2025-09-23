@@ -194,43 +194,52 @@ npm run preview
 ### 📱 Mobile View
 
 1. **Header + Home Page + Hamburger Menu**
+   
    ![Header Mobile](https://github.com/user-attachments/assets/a2c3d34a-5dbe-4aa2-b75c-96ac8589d51b)
 
 2. **About Us**
+   
    ![About Us Mobile](https://github.com/user-attachments/assets/67751c9f-d542-46ac-90b5-c4ed069b63b7)
 
 3. **Service**
+   
    ![Service Mobile](https://github.com/user-attachments/assets/b97106dc-5dfe-48f7-83f4-2ca99b8d00cf)
 
 4. **Introduction Mentor**
+ 
    ![Intro Mentor Mobile](https://github.com/user-attachments/assets/193bf45f-84fc-41f9-812f-13cdf6dd5d0a)
 
 5. **Profile Mentor**
+ 
    ![Profile Mentor Mobile](https://github.com/user-attachments/assets/a84b467e-02d2-4dde-b85c-20ef2f3abf4b)
 
-6. **Office Location**
+6 **Office Location**
+ 
    ![Office Mobile](https://github.com/user-attachments/assets/8ea2ed64-e8e1-4575-a10a-251efa61af29)
 
-7. **Client Partner**
+7 **Client Partner**
+ 
    ![Client Mobile](https://github.com/user-attachments/assets/a8b8b3e4-c056-4e68-98a3-c184134eab9e)
 
 8. **Pricing**
+ 
    ![Pricing Mobile](https://github.com/user-attachments/assets/875d2029-d455-45c4-890c-fa9e85af024d)
 
 9. **Video Testimonial**
+ 
    ![Video Testimonial Mobile](https://github.com/user-attachments/assets/ffbc294f-4fa7-4b49-80eb-b69cb70dadc4)
 
 10. **Text Testimonial**
+ 
     ![Text Testimonial Mobile](https://github.com/user-attachments/assets/c1e64392-3dce-4d14-ad2a-933c012ee971)
 
 11. **Footer**
+
     ![Footer Mobile](https://github.com/user-attachments/assets/23b0530a-47c8-4110-98df-ff2e24ff3c50)
 
 12. **Hamburger Menu**
+    
     ![Hamburger](https://github.com/user-attachments/assets/7190e964-e6e8-441d-bf64-362c6668f344)
 
----
 
-✨ Now your repo has **Indonesian + English documentation**, professional and ready for contributors worldwide.
 
-Mau aku satukan dua versi ini dalam **README bilingual (EN + IDN)**, atau biar dipisah (README.md = English, README-ID.md = Indonesian)?
