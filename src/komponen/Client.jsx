@@ -2,27 +2,28 @@ import React, { useState } from 'react';
 
 // Data logo
 const tabData = {
-    "Training": ["mitra/pertahanan.png", "mitra/mirota.png", "mitra/sydeco.png", "mitra/kominfo.png"
-        ,"mitra/bireuen.png","mitra/KPK.png","mitra/DQ.png","mitra/amikom.png","mitra/univ1.png","mitra/univ2.png"
-        ,"mitra/haribi.png","mitra/tas.png","mitra/suhu.png","mitra/kominfopinrang.png","mitra/pertahanan.png"
-        ,"mitra/fac.png","mitra/mapi.png","mitra/mamikos.png","mitra/metro.png","mitra/itb.png","mitra/hokben.png"
+    "Training": ["src/assets/img/pertahanan.png", "src/assets/img/mirota.png", "src/assets/img/sydeco.png", "src/assets/img/kominfo.png"
+        ,"src/assets/img/bireuen.png","src/assets/img/KPK.png","src/assets/img/DQ.png","src/assets/img/amikom.png","src/assets/img/univ1.png","src/assets/img/univ2.png"
+        ,"src/assets/img/haribi.png","src/assets/img/tas.png","src/assets/img/suhu.png","src/assets/img/kominfopinrang.png","src/assets/img/pertahanan.png"
+        ,"src/assets/img/fac.png","src/assets/img/mapi.png","src/assets/img/mamikos.png","src/assets/img/metro.png","src/assets/img/itb.png","src/assets/img/hokben.png"
     ],
-    "Alumni": ["mitra/img/client_alumni01.png", "mitra/img/client_alumni02.png", "mitra/img/client_alumni03.png", "mitra/img/client_alumni04.png","mitra/img/client_alumni05.png","mitra/img/client_alumni06.png","mitra/img/client_alumni07.png","mitra/img/client_alumni08.png"],
-    "Seminar": ["mitra/img/seminar1.png", "mitra/img/seminar2.png", "mitra/img/seminar3.png","mitra/img/seminar4.png","mitra/img/seminar5.png"
-        ,"mitra/img/seminar6.png","mitra/img/seminar7.png","mitra/img/seminar8.png","mitra/img/seminar9.png","mitra/img/seminar10.png","mitra/img/seminar11.png","mitra/img/seminar12.png","mitra/img/seminar13.png","mitra/img/seminar14.png"
+    "Alumni": ["src/assets/img/client_alumni01.png", "src/assets/img/client_alumni02.png", "src/assets/img/client_alumni03.png", "src/assets/img/client_alumni04.png","src/assets/img/client_alumni05.png","src/assets/img/client_alumni06.png","src/assets/img/client_alumni07.png","src/assets/img/client_alumni08.png"],
+    "Seminar": ["src/assets/img/seminar1.png", "src/assets/img/seminar2.png", "src/assets/img/seminar3.png","src/assets/img/seminar4.png","src/assets/img/seminar5.png"
+        ,"src/assets/img/seminar6.png","src/assets/img/seminar7.png","src/assets/img/seminar8.png","src/assets/img/seminar9.png","src/assets/img/seminar10.png","src/assets/img/seminar11.png","src/assets/img/seminar12.png","src/assets/img/seminar13.png","src/assets/img/seminar14.png"
     ],
-    "Company Partner": ["mitra/img/client_companypartner01.png", "mitra/img/client_companypartner02.png", "mitra/img/client_companypartner03.png", "mitra/img/client_companypartner04.png"
-        ,"mitra/img/client_companypartner05.png","mitra/img/client_companypartner06.png","mitra/img/client_companypartner07.png","mitra/img/client_companypartner08.png","mitra/img/client_companypartner09.png"
+    "Company Partner": ["src/assets/img/client_companypartner01.png", "src/assets/img/client_companypartner02.png", "src/assets/img/client_companypartner03.png", "src/assets/img/client_companypartner04.png"
+        ,"src/assets/img/client_companypartner05.png","src/assets/img/client_companypartner06.png","src/assets/img/client_companypartner07.png","src/assets/img/client_companypartner08.png","src/assets/img/client_companypartner09.png"
     ],
-    "Company Friends": ["mitra/img/client_companyfriend01.png", "mitra/img/client_companyfriend02.png", "mitra/img/client_companyfriend03.png", "mitra/img/client_companyfriend04.png"
-        ,"mitra/img/client_companyfriend05.png","mitra/img/client_companyfriend06.png","mitra/img/client_companyfriend07.png","mitra/img/client_companyfriend08.png","mitra/img/client_companyfriend09.png","mitra/img/client_companyfriend10.png"
+    "Company Friends": ["src/assets/img/client_companyfriend01.png", "src/assets/img/client_companyfriend02.png", "src/assets/img/client_companyfriend03.png", "src/assets/img/client_companyfriend04.png"
+        ,"src/assets/img/client_companyfriend05.png","src/assets/img/client_companyfriend06.png","src/assets/img/client_companyfriend07.png","src/assets/img/client_companyfriend08.png","src/assets/img/client_companyfriend09.png","src/assets/img/client_companyfriend10.png"
     ],
-    "Media Report": ["mitra/img/mediareport1.png", "mitra/img/mediareport2.png", "mitra/img/mediareport3.png", "mitra/img/mediareport4.png","mitra/img/mediareport5.png","mitra/img/mediareport6.png","mitra/img/mediareport7.png","mitra/img/mediareport8.png"
-        ,"mitra/img/mediareport9.png","mitra/img/mediareport10.png","mitra/img/mediareport11.png","mitra/img/mediareport12.png","mitra/img/mediareport13.png","mitra/img/mediareport14.png","mitra/img/mediareport15.png"
+    "Media Report": ["src/assets/img/mediareport1.png", "src/assets/img/mediareport2.png", "src/assets/img/mediareport3.png", "src/assets/img/mediareport4.png","src/assets/img/mediareport5.png","src/assets/img/mediareport6.png","src/assets/img/mediareport7.png","src/assets/img/mediareport8.png"
+        ,"src/assets/img/mediareport9.png","src/assets/img/mediareport10.png","src/assets/img/mediareport11.png","src/assets/img/mediareport12.png","src/assets/img/mediareport13.png","src/assets/img/mediareport14.png","src/assets/img/mediareport15.png"
 
     ],
-    "Country": ["mitra/img/client_country01.png", "mitra/img/client_country02.png", "mitra/img/client_country03.png", "mitra/img/client_country04.png"]
+    "Country": ["src/assets/img/client_country01.png", "src/assets/img/client_country02.png", "src/assets/img/client_country03.png", "src/assets/img/client_country04.png"]
 };
+
 
 // Deskripsi khusus untuk tiap tab
 const tabDescriptions = {
