@@ -157,37 +157,45 @@ npm run preview
 ### 💻 Desktop View
 
 1. **Header + Home Page**
-   ![Header](https://github.com/user-attachments/assets/463b6ef1-b229-4334-8e86-2b9a7bff5dc5)
+   <img width="1880" height="675" alt="image" src="https://github.com/user-attachments/assets/ee64d8e5-e7f1-4fc2-9c7d-6ba82d0f66e4" />
+
 
 2. **About Us**
-   ![About Us](https://github.com/user-attachments/assets/d09b807a-90f9-4c3f-87a1-a259e19c5211)
+  <img width="1891" height="493" alt="image" src="https://github.com/user-attachments/assets/cb1a68ea-e14d-4227-a673-5908420c859a" />
 
 3. **Service**
-   ![Service](https://github.com/user-attachments/assets/b4c7c4a4-f824-4729-abcb-035446957f2f)
+   <img width="1879" height="831" alt="image" src="https://github.com/user-attachments/assets/976d38e9-ac9b-411a-8430-476f43220a85" />
+
 
 4. **Introduction Mentor**
-   ![Intro Mentor](https://github.com/user-attachments/assets/d1b65dde-c45c-4174-bedf-68895d13febd)
+   <img width="1890" height="673" alt="image" src="https://github.com/user-attachments/assets/c198a43a-3979-42b3-a2a4-e7f5e425794d" />
+
 
 5. **Profile Mentor**
-   ![Profile Mentor](https://github.com/user-attachments/assets/6aa226f1-248c-4db3-ac0d-bac59521d7c5)
+   <img width="1899" height="619" alt="image" src="https://github.com/user-attachments/assets/8ad14706-cb7a-4386-9f46-7cafd0445121" />
+
 
 6. **Office Location**
-   ![Office](https://github.com/user-attachments/assets/0b8b05a9-5217-46eb-8b21-da4f947d6f53)
+   <img width="1879" height="538" alt="image" src="https://github.com/user-attachments/assets/a8595fd5-4402-45d2-bc8e-1b8b937187c9" />
+
 
 7. **Client Partner**
-   ![Client](https://github.com/user-attachments/assets/c1ad1014-7f0d-4ed8-a416-1f041f9afd66)
+  <img width="1865" height="753" alt="image" src="https://github.com/user-attachments/assets/9f650bfc-5264-4b48-b0ee-e6cd2a446308" />
 
 8. **Pricing**
-   ![Pricing](https://github.com/user-attachments/assets/6890dd0a-9dc9-4457-b2e8-f253e1e69591)
+   <img width="1898" height="766" alt="image" src="https://github.com/user-attachments/assets/ab17371b-8ab2-48ed-8f7b-64826aae8b5a" />
 
 9. **Video Testimonial**
-   ![Video Testimonial](https://github.com/user-attachments/assets/6be707c2-96fc-4923-a3d4-bc9b8dfe1a4e)
+   <img width="1902" height="665" alt="image" src="https://github.com/user-attachments/assets/b60a0e7f-c2e9-405e-835d-8161d035093b" />
+
 
 10. **Text Testimonial**
-    ![Text Testimonial](https://github.com/user-attachments/assets/8be5bebb-07cb-49ef-87f7-354ed9a14d85)
+    <img width="1892" height="789" alt="image" src="https://github.com/user-attachments/assets/e2e0a919-ccaf-4503-9c32-ba9a02634d45" />
+
 
 11. **Footer**
-    ![Footer](https://github.com/user-attachments/assets/d2f80987-6069-42e9-b3c2-193ee555266a)
+   <img width="1896" height="419" alt="image" src="https://github.com/user-attachments/assets/4cca1892-27e9-45d8-8a2c-d427b6a89310" />
+
 
 ---
 
